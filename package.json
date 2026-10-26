@@ -1,0 +1,28 @@
+{
+  "name": "documind",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.1",
+    "chromadb": "^3.5.0",
+    "groq-sdk": "^1.6.0",
+    "mongoose": "^9.11.2",
+    "next": "16.4.2",
+    "pdfjs-dist": "6.4.299",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "postcss": "8.5.30",
+    "tailwindcss": "4.3.3"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
